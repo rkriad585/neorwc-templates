@@ -1,0 +1,9 @@
+# Neorwc global configuration file
+# Place your custom plans, skills, and environment overrides here.
+# Example:
+# plan: my-custom-plan.md
+# skill: my-custom-skill.md
+# env:
+#   OPENAI_API_KEY: your-key-here
+
+*written by Neorwc*
