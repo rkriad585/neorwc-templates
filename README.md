@@ -39,7 +39,7 @@ Skills are installed to `~/.config/neostore/neorwc/skills/`. Use `neorwc --init`
 | `minimalist` | Ultra-concise, no-fluff documentation |
 | `legal-counsel` | Licensing, IP, and open source governance |
 
-### Architecture & Design Patterns (4)
+### Architecture & Design Patterns (5)
 
 | Skill | Purpose |
 |-------|---------|
@@ -47,8 +47,9 @@ Skills are installed to `~/.config/neostore/neorwc/skills/`. Use `neorwc --init`
 | `event-driven-architect` | Event schemas, producers, consumers, and streaming |
 | `design-system-documenter` | Design tokens, component libraries, and theming |
 | `error-handling-specialist` | Error taxonomy, retry strategies, and circuit breakers |
+| `chaos-engineering-specialist` | Fault injection experiments and resilience validation |
 
-### Framework & Platform (12)
+### Framework & Platform (13)
 
 | Skill | Purpose |
 |-------|---------|
@@ -61,39 +62,45 @@ Skills are installed to `~/.config/neostore/neorwc/skills/`. Use `neorwc --init`
 | `grpc-specialist` | gRPC services, protobuf, and streaming |
 | `docker-specialist` | Dockerfile, Compose, and container docs |
 | `kubernetes-specialist` | K8s manifests, Helm, networking, and operations |
+| `helm-chart-specialist` | Helm chart structure, values, and lifecycle |
 | `serverless-specialist` | FaaS, event sources, and serverless patterns |
 | `terraform-specialist` | Terraform modules, state, and IaC workflows |
 | `database-specialist` | SQL/NoSQL schema and query documentation |
 
-### API & Integration (4)
+### API & Integration (6)
 
 | Skill | Purpose |
 |-------|---------|
+| `api-gateway-specialist` | Gateway routing, rate limiting, and auth aggregation |
+| `api-versioning-specialist` | Versioning schemes, deprecation, and migration |
 | `message-queue-specialist` | Kafka, RabbitMQ, SQS/SNS, and Pub/Sub |
 | `oauth2-specialist` | OAuth2, OpenID Connect, and SSO integration |
 | `webhook-specialist` | Webhook events, payloads, and delivery |
-| `api-gateway-specialist` | API gateway, rate limiting, and routing |
+| `sbom-specialist` | SBOM generation, supply chain, and vulnerability management |
 
-### CI/CD & Deployment (4)
+### CI/CD & Deployment (5)
 
 | Skill | Purpose |
 |-------|---------|
 | `ci-cd-specialist` | Pipeline configuration and automation docs |
 | `deployment-specialist` | Release, deploy, and rollback procedures |
 | `build-system-specialist` | Build tools and compilation pipeline docs |
-| `release-manager` | Release coordination and versioning strategy |
+| `release-manager` | Release coordination, versioning, and approval gates |
+| `load-testing-specialist` | Stress, soak, spike testing with k6, JMeter, Locust |
 
-### Quality & Testing (5)
+### Quality & Testing (7)
 
 | Skill | Purpose |
 |-------|---------|
 | `testing-strategist` | Test pyramid, coverage goals, and quality gates |
 | `integration-tester` | E2E, contract, and service-level testing docs |
 | `api-testing-specialist` | Contract testing, collections, and API monitoring |
+| `static-analysis-specialist` | Linters, SAST, code quality gates |
+| `code-coverage-specialist` | Coverage metrics, thresholds, and reporting |
 | `accessibility-specialist` | WCAG compliance and inclusive design docs |
 | `performance-engineer` | Benchmarking and optimization documentation |
 
-### Development Workflow (8)
+### Development Workflow (9)
 
 | Skill | Purpose |
 |-------|---------|
@@ -104,20 +111,25 @@ Skills are installed to `~/.config/neostore/neorwc/skills/`. Use `neorwc --init`
 | `troubleshooting-specialist` | Error resolution and FAQ documentation |
 | `git-workflow-specialist` | Branching strategy and commit conventions |
 | `dependency-manager` | Package management, lock files, and vulnerability scanning |
+| `localization-specialist` | i18n, translations, RTL support, and locale files |
 | `code-generator` | Scaffolding and code generation docs |
 
-### Infrastructure & Operations (9)
+### Infrastructure & Operations (12)
 
 | Skill | Purpose |
 |-------|---------|
 | `monitoring-specialist` | Metrics, dashboards, and alerting docs |
 | `logging-specialist` | Structured logging and log analysis docs |
 | `sre-specialist` | SLOs, error budgets, and incident management |
+| `incident-response-specialist` | Severity matrix, on-call, runbooks, postmortems |
+| `service-mesh-specialist` | Istio, Linkerd, mTLS, and traffic policies |
+| `proxy-specialist` | Nginx, Caddy, Traefik reverse proxy configuration |
 | `caching-specialist` | Multi-layer caching strategy documentation |
 | `backup-specialist` | Backup, restore, and disaster recovery docs |
 | `secret-management-specialist` | Vault, secrets rotation, and encryption |
 | `config-manager` | Configuration and environment variable management |
-| `incident-response-specialist` | Incident response, on-call, and postmortems |
+| `scheduled-task-specialist` | Cron, Airflow, batch processing, and job scheduling |
+| `data-migration-specialist` | ETL pipelines, schema migration, and data validation |
 
 ### Compliance & Governance (2)
 
@@ -126,12 +138,11 @@ Skills are installed to `~/.config/neostore/neorwc/skills/`. Use `neorwc --init`
 | `compliance-documenter` | Regulatory compliance (SOC 2, GDPR, HIPAA) docs |
 | `documentation-strategist` | Information architecture and doc planning |
 
-### Environment & Setup (2)
+### Environment & Setup (1)
 
 | Skill | Purpose |
 |-------|---------|
 | `environment-specialist` | Development environment setup guides |
-| `dependency-manager` | Dependency management and lock file docs |
 
 ### NeoRWC-Specific (4)
 
